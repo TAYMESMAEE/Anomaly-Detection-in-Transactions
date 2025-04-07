@@ -18,9 +18,7 @@ Machine learning system for detecting fraudulent transactions using Isolation Fo
 cd transaction-anomaly-detection
 pip install -r requirements.txt
 
-Usage
-python
-Copy
+## Usage
 from src.detect_anomalies import AnomalyDetector
 
 detector = AnomalyDetector()
@@ -30,8 +28,8 @@ transaction = {
     'Frequency_of_Transactions': 30.0
 }
 result = detector.detect(transaction)
-Project Structure
-Copy
+## Project Structure
+
 ├── data/              # Raw and processed datasets
 ├── models/            # Serialized ML models
 ├── notebooks/         # Exploratory analysis
